@@ -32,6 +32,7 @@ def buscar_politica_optima(entorno, num_intentos):
         # IvanL: Realiza la acción y observa la recompensa.
         recompensa = entorno.disparar(accion_optima)
 
+
     return politica_optima
 
 # IvanL: Creación del entorno del juego de tiro al blanco.
